@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.box-sizing{
+    box-sizing: border-box;
+}
+/*==========
+common css ends
+===========*/
+.open-sans{
+    font-family: 'Open Sans', sans-serif;
+}
+/*===========
+start
+===========*/
+
+main{
+    height: 100vh;
+    background: linear-gradient(to right top, #051937,#004d7a,#008793,#00bf72,#a8eb12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 30px;
+    font-weight: 800;
+}
+div{
+    width: 400px;
+    height: auto;
+    background: linear-gradient(to right top, #c9d0db,#c9d843,#55d6d6,#d359e4,#a8eb12);
+    padding: 50px;
+    box-shadow: 1px 1px 15px 3px #2d3436;
+}
+h1{
+    margin-bottom: 10px;
+    color: #051937;
+    text-shadow: 1px 2px 1px #fff;
+    text-transform: capitalize;
+}
+label{
+    display: block;
+    text-transform: capitalize;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 700;
+}
+input{
+    width: 400px;
+    padding: 10px 0;
+}
+button{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    padding: 15px 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: none;
+    color: white;
+    background: red;
+    box-shadow: 1px 1px 5px 1px #2d3436;
+    margin-top: 20px;
+}
